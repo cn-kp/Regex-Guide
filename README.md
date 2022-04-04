@@ -8,7 +8,8 @@ This tutorial will focus on matching an email with the following:
 
 <pre>/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/</pre>
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regular expression will start with at least 1 characters from `A-Z`, `0-9`, `_`, `.` and `-`, followed by `@` then at least 1 character from the same set then `.`, and finally at least 2 to a maximum of 6 alphanumeric characters to end the expression. 
+
 
 ## Table of Contents
 
